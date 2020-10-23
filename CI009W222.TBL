@@ -1,0 +1,31 @@
+create table tb_pssngr_lst_9w222
+(
+    pl9w222_pnr_v varchar2(10) ,
+    pl9w222_pss_fnm_v varchar2(20),
+    pl9w222_pss_lnm_v varchar2(20),
+    pl9w222_ctgry_v varchar2(20),
+    pl9w222_accmmdtn_v varchar2(20),
+    pl9w222_stts_v varchar2(50)
+);
+
+
+
+
+insert into tb_pssngr_lst_9w222 values('CNBHRT','JAY','JHANGIANI','PAID+JP','MAX_ECO_FLEC','');
+insert into tb_pssngr_lst_9w222 values('CNBHRI','D','JHANGIANI','STAFF','MAX_SUPER_SAVE','');
+insert into tb_pssngr_lst_9w222 values('CNBHRJ','S','JHANGIANI','PAID','MAX_SUPER_SAVE','');
+insert into tb_pssngr_lst_9w222 values('CNBHRH','L','JHANGIANI','PAID','MAX_SUPER_SAVE','');
+insert into tb_pssngr_lst_9w222 values('CNBHRP','H','JHANGIANI','PAID','MAX_SUPER_SAVE','');
+insert into tb_pssngr_lst_9w222 values('CNBHRY','K','SHIVDASANI','JP MILES','MAX_SUPER_SAVE','');
+insert into tb_pssngr_lst_9w222 values('CNBHRS','N','HIRA','PAID','MAX_CLUB','');
+insert into tb_pssngr_lst_9w222 values('CNBHRD','G','HIRA','PAID','MAX_CLUB','');
+insert into tb_pssngr_lst_9w222 values('CNBHRE','S','AHUJA','PAID','MAX_SUPER_SAVE','');
+insert into tb_pssngr_lst_9w222 values('CNBHRW','R','PAREKH','PAID','MAX_SUPER_SAVE','');
+insert into tb_pssngr_lst_9w222 values('CNBHRL','N','DANDA','PAID','MAX_SUPER_SAVE','');
+insert into tb_pssngr_lst_9w222 values('CNBHPP','V','PAWAR','PAID','MAX_SUPER_SAVE','');
+insert into tb_pssngr_lst_9w222 values('CNBHKJ','S','PRABHU','PAID','MAX_SUPER_SAVE','');
+insert into tb_pssngr_lst_9w222 values('CNBHLL','M','PATHAK','PAID','MAX_SUPER_SAVE','');
+insert into tb_pssngr_lst_9w222 values('CNBHLN','N','NAGULA','PAID','MAX_SUPER_SAVE','');
+insert into tb_pssngr_lst_9w222 values('CNBHLP','N','JHANGIANI','PAID','MAX_ECO_FLEC','');
+
+select * from tb_pssngr_lst_9w222;
